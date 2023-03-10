@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb119f60-228d-4f71-ba53-8759d67183f2" name="Changes" comment="">
+    <list default="true" id="eb119f60-228d-4f71-ba53-8759d67183f2" name="Changes" comment="save">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Searchbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Searchbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SortBy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortBy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Discover.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Discover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Genre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Genre.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Movie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Person.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +50,14 @@
       <updated>1675909285369</updated>
       <workItem from="1675909287434" duration="489000" />
     </task>
+    <task id="LOCAL-00001" summary="save">
+      <created>1678485322648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678485322648</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="save" />
+    <option name="LAST_COMMIT_MESSAGE" value="save" />
   </component>
 </project>
