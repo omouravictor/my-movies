@@ -84,12 +84,6 @@ function MobileMenu({ genres, staticCategories, selected }) {
           <h1 className="font-bold text-lg">Genres</h1>
           {renderGenres(genres, selected, setOpen)}
         </div>
-        <p className="text-gray-100 text-center flex justify-center items-center mt-4 text-md">
-          &copy; Copyright
-          <a href="https://github.com/fabcodingzest" className="font-bold ml-2">
-            Fab
-          </a>
-        </p>
         <a href="https://www.themoviedb.org/" target="_blank" rel="noreferrer">
           <img
             className="w-full px-16 sm:px-10 py-6"

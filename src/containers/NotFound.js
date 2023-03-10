@@ -11,7 +11,7 @@ function NotFound({ title, subtitle, home }) {
       <p className="text-md md:text-lg xl:text-2xl text-center my-3 md:mb-8 break-all">
         {subtitle}
       </p>
-      <img src={Empty} alt="Something went wrong" className="w-full" />
+      <img src={Empty} alt="Algo deu errado" className="w-full" />
       {home && (
         <Link
           to={`${process.env.PUBLIC_URL}/`}

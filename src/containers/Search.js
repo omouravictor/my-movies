@@ -53,7 +53,7 @@ function Search({ history, location, match, baseURL, setSelected }) {
     <div className="text-gray-600 py-16 min-h-screen">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{`${query} Movies`}</title>
+        <title>{`Filmes ${query}`}</title>
       </Helmet>
       <Header name={query} />
       <MovieList movies={movies} baseURL={baseURL} name={query} />

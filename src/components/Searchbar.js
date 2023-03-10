@@ -10,10 +10,10 @@ function Searchbar({ history }) {
   const [input, setInput] = useState("");
 
   useEffect(() => {
-    // add the event listener to the document when component mounts
+    // Adiciona o evento listener ao document quando for montado o componente
     document.addEventListener("mousedown", handleClick);
 
-    // clean up the component when unmounted
+    // Limpa os eventListeners quando o componente for desmontado
     return () => {
       document.removeEventListener("mousedown", handleClick);
     };

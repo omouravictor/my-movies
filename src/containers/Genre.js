@@ -51,7 +51,7 @@ function Genre({ history, location, match, genres, baseURL, setSelected }) {
     <div className="py-16 text-gray-600 min-h-screen flex flex-col justify-center">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{`${genreName} Movies`}</title>
+        <title>{`Filmes de ${genreName}`}</title>
       </Helmet>
       <Header name={genreName} />
       <div className="my-2 ml-4">

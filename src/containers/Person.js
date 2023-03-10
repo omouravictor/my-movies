@@ -134,7 +134,7 @@ const renderPersonMovies = (movies, loading, baseURL) => {
   if (movies.results.length === 0) {
     return (
       <div className="my-90 mt-auto max-w-2xl mx-auto flex justify-center items-center">
-        <NotFound title="Oops!" subtitle="Something went wrong..." />
+        <NotFound title="Oops!" subtitle="Algo deu errado..." />
       </div>
     );
   }

@@ -49,7 +49,13 @@ function Discover({
     <div className="text-gray-600 py-16 min-h-screen flex flex-col justify-center">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{`${category} Movies`}</title>
+        {category === "Popular" ? (
+            <title>{`Filmes Populares`}</title>
+        ) : category === "Top Rated" ? (
+            <title>{`Filmes Melhores Avaliados`}</title>
+        ) : (
+        <title>{`Filmes ${category}`}</title>
+        )}
       </Helmet>
       {category === "Popular" ? (
           <Header name="Populares" />

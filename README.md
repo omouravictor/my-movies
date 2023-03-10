@@ -56,5 +56,3 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 Please feel free to make a pull request by creating an issue if you feel like there is something which can be improved.
 
 ### Author
-
-**[Fab](https://github.com/fabcodingzest)** - _A web developer_

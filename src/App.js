@@ -148,7 +148,7 @@ function App() {
                 <div className="h-screen max-w-7xl mx-auto flex justify-center items-center">
                   <NotFound
                     title="Oops!"
-                    subtitle="This doesn't exist..."
+                    subtitle="Isso não existe..."
                     home
                   />
                 </div>
@@ -161,7 +161,7 @@ function App() {
                 <div className="h-screen max-w-7xl mx-auto flex justify-center items-center">
                   <NotFound
                     title="Oops!"
-                    subtitle="Something went wrong..."
+                    subtitle="Algo deu errado..."
                     home
                   />
                 </div>
@@ -170,7 +170,7 @@ function App() {
             <Route
               component={() => (
                 <div className="h-screen max-w-7xl mx-auto flex justify-center items-center">
-                  <NotFound title="Ooops" subtitle="This doesn't exist!" />
+                  <NotFound title="Ooops" subtitle="Isso não existe!" />
                 </div>
               )}
             />
@@ -182,7 +182,3 @@ function App() {
 }
 
 export default App;
-
-// Some helpful links for Routing with react-router
-// from docs: https://reactrouter.com/web/api/Route/component
-// https://stackoverflow.com/questions/62804439/how-to-prevent-infinite-loop-with-reacts-usereducer-usecontext-and-useeffect

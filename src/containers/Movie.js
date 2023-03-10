@@ -132,7 +132,7 @@ function Movie({ location, history, match, baseURL, setSelected }) {
                 <p className="">
                   {movieDetails.overview.length !== 0
                     ? movieDetails.overview
-                    : "No Synopsis found..."}
+                    : "Sinopse não encontrada..."}
                 </p>
               </div>
               <div className="castList text-sm">
@@ -218,7 +218,7 @@ const renderRecommendedMovies = (movies, baseURL, loading) => {
   if (movies.results.length === 0) {
     return (
       <div className="mt-24 max-w-xl lg:max-w-5xl mx-auto flex justify-center items-center">
-        <NotFound title="Sorry!" subtitle="No recommendations found..." />
+        <NotFound title="Desculpe!" subtitle="Recomendados não encontrados..." />
       </div>
     );
   }
