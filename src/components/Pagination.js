@@ -40,7 +40,7 @@ function Pagination({ movies }) {
           to={`${process.env.PUBLIC_URL}?page=${page + 1}`}
           onClick={scrollTo}
         >
-          <Button solid title={`Page ${page + 1}`} icon={faArrowRight} />
+          <Button solid title={`Página ${page + 1}`} icon={faArrowRight} />
         </Link>
       </Wrapper>
     );
@@ -51,13 +51,13 @@ function Pagination({ movies }) {
           to={`${process.env.PUBLIC_URL}?page=${page - 1}`}
           onClick={scrollTo}
         >
-          <Button solid left title={`Page ${page - 1} `} icon={faArrowLeft} />
+          <Button solid left title={`Página ${page - 1} `} icon={faArrowLeft} />
         </Link>
         <Link
           to={`${process.env.PUBLIC_URL}?page=${page + 1}`}
           onClick={scrollTo}
         >
-          <Button solid title={`Page ${page + 1}`} icon={faArrowRight} />
+          <Button solid title={`Página ${page + 1}`} icon={faArrowRight} />
         </Link>
       </Wrapper>
     );
@@ -68,7 +68,7 @@ function Pagination({ movies }) {
           to={`${process.env.PUBLIC_URL}?page=${page - 1}`}
           onClick={scrollTo}
         >
-          <Button left solid title={`Page ${page - 1}`} icon={faArrowLeft} />
+          <Button left solid title={`Página ${page - 1}`} icon={faArrowLeft} />
         </Link>
       </Wrapper>
     );

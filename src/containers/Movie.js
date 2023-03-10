@@ -58,7 +58,7 @@ function Movie({ location, history, match, baseURL, setSelected }) {
     if (history.action === "PUSH")
       return (
         <div onClick={history.goBack}>
-          <Button title="Go back" icon={faArrowLeft} solid left />
+          <Button title="Voltar" icon={faArrowLeft} solid left />
         </div>
       );
   };
@@ -112,7 +112,7 @@ function Movie({ location, history, match, baseURL, setSelected }) {
                 </p>
               </div>
               <div className="genres text-sm">
-                <p className="font-semibold mb-2 uppercase">The Genres</p>
+                <p className="font-semibold mb-2 uppercase">Gêneros relacionados</p>
                 {movieDetails.genres.map((genre) => {
                   return (
                     <Link
@@ -127,7 +127,7 @@ function Movie({ location, history, match, baseURL, setSelected }) {
               </div>
               <div className="synopsis text-md md:text-sm">
                 <p className="font-semibold mt-6 mb-2 uppercase">
-                  The Synopsis
+                  Sinopse
                 </p>
                 <p className="">
                   {movieDetails.overview.length !== 0
@@ -136,7 +136,7 @@ function Movie({ location, history, match, baseURL, setSelected }) {
                 </p>
               </div>
               <div className="castList text-sm">
-                <p className="font-semibold mt-6 mb-2 uppercase">The Cast</p>
+                <p className="font-semibold mt-6 mb-2 uppercase">Elenco</p>
                 <CastList castDetails={castDetails} baseURL={baseURL} />
               </div>
               <div className="links w-full flex flex-row justify-between items-center">
@@ -152,7 +152,7 @@ function Movie({ location, history, match, baseURL, setSelected }) {
         </LazyLoad>
       )}
       <div className="recommended mt-20">
-        <Header name="Recommended" />
+        <Header name="Recomendados" />
         {renderRecommendedMovies(
           recommendedMovies,
           baseURL,

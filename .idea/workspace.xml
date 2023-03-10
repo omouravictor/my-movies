@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb119f60-228d-4f71-ba53-8759d67183f2" name="Changes" comment="" />
+    <list default="true" id="eb119f60-228d-4f71-ba53-8759d67183f2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Searchbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Searchbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SortBy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortBy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Discover.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Discover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Genre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Genre.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Sidebar.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +44,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>

@@ -22,7 +22,7 @@ function Person({ location, history, match, baseURL, setSelected }) {
   const [imageloaded, setImgLoaded] = useState(false);
   const [option, setOption] = useState({
     value: "popularity.desc",
-    label: "Popularity",
+    label: "Popularidade",
   });
   const { loadingPerson, loadingMovies, personDetails, personMovies } = state;
   useEffect(() => {
@@ -43,7 +43,7 @@ function Person({ location, history, match, baseURL, setSelected }) {
     if (history.action === "PUSH")
       return (
         <div onClick={history.goBack}>
-          <Button title="Go back" icon={faArrowLeft} solid left />
+          <Button title="Voltar" icon={faArrowLeft} solid left />
         </div>
       );
   };
@@ -85,11 +85,11 @@ function Person({ location, history, match, baseURL, setSelected }) {
                 {personDetails.name}
               </h1>
               <div className="Biography text-md">
-                <p className="font-semibold mt-6 mb-2">The Biography</p>
+                <p className="font-semibold mt-6 mb-2">Bibliografia</p>
                 <p>
                   {personDetails.biography.length !== 0
                     ? personDetails.biography
-                    : "No biography found..."}
+                    : "Não foi possível encontrar a bibliografia..."}
                 </p>
               </div>
               <div className="links w-full flex flex-row justify-between items-center my-8">
@@ -102,9 +102,8 @@ function Person({ location, history, match, baseURL, setSelected }) {
       )}
       <div className="recommended mt-20">
         <h1 className="text-3xl w-full font-thin uppercase ml-4">
-          Also Enters in
+          Também aparece em
         </h1>
-        <p className="text-sm uppercase font-bold ml-4">movies</p>
         <div className="my-2 ml-4">
           <SortBy option={option} setOption={setOption} />
         </div>

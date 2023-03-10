@@ -51,7 +51,13 @@ function Discover({
         <meta charSet="utf-8" />
         <title>{`${category} Movies`}</title>
       </Helmet>
-      <Header name={category} />
+      {category === "Popular" ? (
+          <Header name="Populares" />
+      ) : category === "Top Rated" ? (
+          <Header name="Melhores Avaliados" />
+      ) : (
+          <Header name={category} />
+      )}
       <div className="text-gray-700 my-8">
         <MovieList movies={movies} baseURL={baseURL} />
       </div>

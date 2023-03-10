@@ -47,7 +47,7 @@ function Searchbar({ history }) {
       <input
         ref={inputRef}
         type="text"
-        placeholder="Search for a movie..."
+        placeholder="Pesquise por um filme..."
         value={input}
         className={`text-xl lg:text-sm transition-all ease-in w-full pl-10  py-1.5 lg:py-2.5 outline-none rounded-full bg-gray-600 text-gray-50 placeholder-gray-100 border-none ${
           focus ? "cursor-auto pr-4" : "cursor-pointer"

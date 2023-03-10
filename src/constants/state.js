@@ -26,4 +26,4 @@ export const INITIAL_MOVIE_STATE = {
   recommendedMovies: {},
 };
 
-export const staticCategories = ["Popular", "Top Rated", "Upcoming"];
+export const staticCategories = ["Popular", "Top Rated"];

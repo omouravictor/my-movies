@@ -16,7 +16,7 @@ function Genre({ history, location, match, genres, baseURL, setSelected }) {
   const [state, dispatch] = useReducer(MoviesReducer, INITIAL_MOVIES_STATE);
   const [option, setOption] = useState({
     value: "popularity.desc",
-    label: "Popularity",
+    label: "Popularidade",
   });
   if (!genres.some((genre) => genre.name === genreName)) {
     history.push(`${process.env.PUBLIC_URL}/404`);

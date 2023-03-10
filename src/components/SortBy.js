@@ -2,10 +2,10 @@ import React from "react";
 import Select from "react-select";
 
 const options = [
-  { value: "popularity.desc", label: "Popularity" },
-  { value: "vote_average.desc", label: "Votes Average" },
-  { value: "original_title.asc", label: "Title" },
-  { value: "release_date.desc", label: "Release Date" },
+  { value: "popularity.desc", label: "Popularidade" },
+  { value: "vote_average.desc", label: "Votação" },
+  { value: "original_title.asc", label: "Título" },
+  { value: "release_date.desc", label: "Data de lançamento" },
 ];
 
 function SortBy({ option, setOption }) {
