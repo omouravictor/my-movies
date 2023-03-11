@@ -50,11 +50,11 @@ function Discover({
       <Helmet>
         <meta charSet="utf-8" />
         {category === "Popular" ? (
-            <title>{`Filmes Populares`}</title>
+            <title>{`Filmes Populares - My Movies`}</title>
         ) : category === "Top Rated" ? (
-            <title>{`Filmes Melhores Avaliados`}</title>
+            <title>{`Filmes Melhores Avaliados - My Movies`}</title>
         ) : (
-        <title>{`Filmes ${category}`}</title>
+        <title>{`Filmes ${category} - My Movies`}</title>
         )}
       </Helmet>
       {category === "Popular" ? (

@@ -59,7 +59,7 @@ function Person({ location, history, match, baseURL, setSelected }) {
           <div className="movie flex flex-col lg:flex-row justify-center items-center gap-10 lg:gapy-16 max-w-6xl mx-auto">
             <Helmet>
               <meta charSet="utf-8" />
-              <title>{`${personDetails.name} - Movie Library`}</title>
+              <title>{`${personDetails.name} - My Movies`}</title>
             </Helmet>
             <div className="w-full h-full sm:w-2/5 max-w-sm rounded-lg">
               {!imageloaded ? (

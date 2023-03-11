@@ -74,7 +74,7 @@ function Movie({ location, history, match, baseURL, setSelected }) {
           <div className="movie flex flex-col md:flex-row justify-center items-center max-w-4xl 2xl:max-w-6xl mx-auto">
             <Helmet>
               <meta charSet="utf-8" />
-              <title>{`${movieDetails.title} - Movie Library`}</title>
+              <title>{`${movieDetails.title} - My Movies`}</title>
             </Helmet>
             <div className="w-full h-full max-w-xs lg:max-w-sm md:w-2/5 rounded-lg md:mr-4 xl:mr-20 mb-10 lg:mb-0">
               {!imageloaded ? (
