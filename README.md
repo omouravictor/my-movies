@@ -1,6 +1,6 @@
 # **CSI606-2021-02 - Remoto - Trabalho Final - Resultados**
 
-## *Aluna(o): Victor Gabriel Siqueira Moura
+## *Aluno(a): Victor Gabriel Siqueira Moura
 
 --------------
 
