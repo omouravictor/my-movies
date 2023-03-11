@@ -40,7 +40,7 @@ A aplicação foi construída com o NodeJs na versão **14.21.2**. Entretanto, a
     ```
     REACT_APP_TMDB_API=sua_chave_da_api_tmdb
     ```
-- Abra a pasta my-movies do projeto pelo terminal e rode o comando `npm install` ou `yarn add` para adicionar todas as dependências do projeto.
+- Abra a pasta my-movies do projeto pelo terminal e rode o comando `npm install` ou `yarn install` para adicionar todas as dependências do projeto.
 - Agora basta rodar o comando `npm start` ou `yarn start` e aguardar o projeto ser inicializado no navegador (localhost).
 
 ### 6. Referências
