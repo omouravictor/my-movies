@@ -148,7 +148,7 @@ function App() {
                 <div className="h-screen max-w-7xl mx-auto flex justify-center items-center">
                   <NotFound
                     title="Oops!"
-                    subtitle="Isso não existe..."
+                    subtitle="Página não encontrada..."
                     home
                   />
                 </div>
@@ -170,7 +170,7 @@ function App() {
             <Route
               component={() => (
                 <div className="h-screen max-w-7xl mx-auto flex justify-center items-center">
-                  <NotFound title="Ooops" subtitle="Isso não existe!" />
+                  <NotFound title="Ooops" subtitle="Página não encontrada..." />
                 </div>
               )}
             />

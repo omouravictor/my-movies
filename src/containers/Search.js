@@ -42,8 +42,8 @@ function Search({ history, location, match, baseURL, setSelected }) {
     return (
       <div className="h-screen flex justify-center items-center">
         <NotFound
-          title="Sorry!"
-          subtitle={`No Results Found for: ${query}`}
+          title=":("
+          subtitle={`Não foram encontrados resultados para: ${query}`}
           home
         />
       </div>
