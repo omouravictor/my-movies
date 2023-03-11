@@ -6,7 +6,7 @@
 
 ### Resumo
 
-O trabalho consiste em uma biblioteca de filmes consumindo a [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction). O back-end e front-end da aplicação estão construídos em javascript, com utilização do React no front. A aplicação oferece ao usuário uma experiência de descoberta e detalhamento de filmes.
+O trabalho consiste em uma biblioteca de filmes consumindo a [TMDB API](https://www.themoviedb.org/documentation/api). O back-end e front-end da aplicação estão construídos em javascript, com utilização do React no front. A aplicação oferece ao usuário uma experiência de descoberta e detalhamento de filmes.
 
 ### 1. Funcionalidades implementadas
 
