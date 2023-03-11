@@ -33,8 +33,7 @@ Meu principal desafio foi lidar com o gerenciamento de estado do React para lida
 
 ### 5. Instruções para instalação e execução
 
-A aplicação foi construída com o NodeJs na versão **14.21.2**. Entretanto, a aplicação pode não funcionar caso a versão do Node seja mais recente.
-Uma dica é instalar o **NVM**  que permite você ter várias versões do Node instaladas e trocar de versão quando quiser. [Link Windows](https://github.com/coreybutler/nvm-windows/releases), [Link Linux](https://github.com/nvm-sh/nvm)
+A aplicação foi construída com o NodeJs na versão **14.21.2**. Entretanto, a aplicação pode não funcionar caso a versão do Node seja mais recente. Uma dica é instalar o **NVM**  que permite você ter várias versões do Node instaladas e trocar de versão quando quiser. [Link Windows](https://github.com/coreybutler/nvm-windows/releases), [Link Linux](https://github.com/nvm-sh/nvm)
 
 - Tenha uma chave de acesso para API TMDB. Caso não tenha, é possível criar uma gratuitamente através deste [Link](https://developers.themoviedb.org/3/getting-started/introduction).
 - Crie um arquivo **.env** na pasta raiz do projeto e adicione a sua chave da API TMDB da seguinte forma:
