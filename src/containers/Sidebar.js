@@ -1,7 +1,5 @@
 import React from "react";
 import StickyBox from "react-sticky-box";
-import MovieIllustration from "../assets/movietime.svg";
-import TMDBLogo from "../assets/TMDBLogoDark.svg";
 import { Link } from "react-router-dom";
 import ListItem from "../components/ListItem";
 import { faGift, faFire, faChartLine } from "@fortawesome/free-solid-svg-icons";
@@ -10,11 +8,6 @@ const Sidebar = ({ genres,staticCategories, selected }) => {
   const staticIcons = [faGift, faFire, faChartLine];
   return (
     <StickyBox className="hidden lg:block border-r-2 sidebar border-gray-300 text-gray-500 min-h-screen">
-      <img
-        className="w-full pt-6 px-6"
-        src={MovieIllustration}
-        alt="Movie illustration"
-      />
       <div className="sidebar p-4">
         <h1 className="text-gray-700 font-bold text-lg">Filmes</h1>
         {renderStatic(staticCategories, staticIcons, selected)}
@@ -22,13 +15,6 @@ const Sidebar = ({ genres,staticCategories, selected }) => {
         <h1 className="text-gray-700 font-bold text-lg">Gêneros</h1>
         {renderGenres(genres, selected)}
       </div>
-      <a href="https://www.themoviedb.org/" target="_blank" rel="noreferrer">
-        <img
-          className="w-full px-16 py-6"
-          src={TMDBLogo}
-          alt="The Movie DB Logo"
-        />
-      </a>
     </StickyBox>
   );
 };
@@ -42,7 +28,7 @@ const renderStatic = (categories, staticIcons, selected) => {
           : "hover:border-gray-500"
       }`}
       key={index}
-      to={`${process.env.PUBLIC_URL}/discover/${category}`}
+      to={`${process.env.PUBLIC_URL}/filmes/${category}`}
     >
     {category === "Popular" ? (
         <ListItem text="Populares" icon={staticIcons[index]} />
@@ -64,7 +50,7 @@ const renderGenres = (genres, selected) => {
           : "hover:border-gray-500"
       }`}
       key={genre.id}
-      to={`${process.env.PUBLIC_URL}/genre/${genre.name}`}
+      to={`${process.env.PUBLIC_URL}/genero/${genre.name}`}
     >
       <ListItem text={genre.name} />
     </Link>

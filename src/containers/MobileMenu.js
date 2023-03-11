@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import StickyBox from "react-sticky-box";
-import TMDBLogo from "../assets/TMDBLogoLight.svg";
 import { Link } from "react-router-dom";
 import { faGift, faFire, faChartLine } from "@fortawesome/free-solid-svg-icons";
 import { slide as Menu } from "react-burger-menu";
@@ -84,13 +83,6 @@ function MobileMenu({ genres, staticCategories, selected }) {
           <h1 className="font-bold text-lg">Genres</h1>
           {renderGenres(genres, selected, setOpen)}
         </div>
-        <a href="https://www.themoviedb.org/" target="_blank" rel="noreferrer">
-          <img
-            className="w-full px-16 sm:px-10 py-6"
-            src={TMDBLogo}
-            alt="The Movie DB Logo"
-          />
-        </a>
       </Menu>
     </>
   );
@@ -102,7 +94,7 @@ const renderStatic = (categories, staticIcons, selected, setOpen) => {
       className="block"
       key={index}
       onClick={setOpen ? () => setOpen(false) : null}
-      to={`${process.env.PUBLIC_URL}/discover/${category}`}
+      to={`${process.env.PUBLIC_URL}/filmes/${category}`}
     >
       <MenuItem
         text={category}
@@ -119,7 +111,7 @@ const renderGenres = (genres, selected, setOpen) => {
       className="block"
       key={genre.id}
       onClick={setOpen ? () => setOpen(false) : null}
-      to={`${process.env.PUBLIC_URL}/genre/${genre.name}`}
+      to={`${process.env.PUBLIC_URL}/genero/${genre.name}`}
     >
       <MenuItem text={genre.name} selected={selected === genre.name} />
     </Link>

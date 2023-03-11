@@ -79,11 +79,11 @@ function App() {
             <Route
               exact
               path={process.env.PUBLIC_URL + "/"}
-              render={() => <Redirect to="/discover/Popular" />}
+              render={() => <Redirect to="/filmes/Popular" />}
             />
             <Route
               exact
-              path={process.env.PUBLIC_URL + "/genre/:name"}
+              path={process.env.PUBLIC_URL + "/genero/:name"}
               render={(routeProps) => (
                 <Genre
                   {...routeProps}
@@ -95,7 +95,7 @@ function App() {
             />
             <Route
               exact
-              path={process.env.PUBLIC_URL + "/discover/:name"}
+              path={process.env.PUBLIC_URL + "/filmes/:name"}
               render={(routeProps) => (
                 <Discover
                   {...routeProps}

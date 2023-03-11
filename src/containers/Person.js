@@ -89,7 +89,11 @@ function Person({ location, history, match, baseURL, setSelected }) {
                 <p>
                   {personDetails.biography.length !== 0
                     ? personDetails.biography
-                    : "Não foi possível encontrar a bibliografia..."}
+                    : "Não foi possível encontrar a bibliografia."}
+                </p>
+                <p>
+                  {personDetails.biography.length === 0
+                      ? "Tente pelo botão 'IMDB' abaixo." : ""}
                 </p>
               </div>
               <div className="links w-full flex flex-row justify-between items-center my-8">

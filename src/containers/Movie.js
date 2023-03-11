@@ -116,7 +116,7 @@ function Movie({ location, history, match, baseURL, setSelected }) {
                 {movieDetails.genres.map((genre) => {
                   return (
                     <Link
-                      to={`${process.env.PUBLIC_URL}/genre/${genre.name}`}
+                      to={`${process.env.PUBLIC_URL}/genero/${genre.name}`}
                       key={genre.id}
                       className="pr-1"
                     >
