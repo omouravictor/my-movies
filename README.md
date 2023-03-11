@@ -19,7 +19,7 @@ O trabalho consiste em uma biblioteca de filmes consumindo a [TMDB API](https://
 
 ### 2. Funcionalidades previstas e não implementadas
 
-- Possibilidade de criar uma lista de filmes para assistir mais tarde: Essa funcionalidade possui certas complexidades relacionadas a manipulação de dados armazenados localmente, como por exemplo a necessidade de garantir que a lista seja salva e recuperada corretamente, e a necessidade de garantir que os filmes sejam adicionados e removidos da lista de maneira confiável e consistente. Levando em consideração a pouca experiência com o javascript e o react optei por não dar continuidade na implementação e evitar a entrega de algo não funcional.
+- Felizmente todas as funcionalidades foram implementadas. O próximo passo da aplicação será criar uma lista de filmes para assistir mais tarde.
 
 ### 3. Outras funcionalidades implementadas
 
