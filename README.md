@@ -19,7 +19,7 @@ O trabalho consiste em uma biblioteca de filmes consumindo a [TMDB API](https://
 
 ### 2. Funcionalidades previstas e não implementadas
 
-- Possibilidade de criar uma lista de filmes para assistir mais tarde: Essa funcionalidade possui certas complexidades relacionadas a manipulação de dados armazenados no Local Storage, como por exemplo a necessidade de garantir que a lista seja salva e recuperada corretamente, e a necessidade de garantir que os filmes sejam adicionados e removidos da lista de maneira confiável e consistente. Levando em consideração os aspectos de prazo e a pouca experiência com javascript e a biblioteca react optei por não dar continuidade na implementação e evitar a entrega de algo incompleto.
+- Possibilidade de criar uma lista de filmes para assistir mais tarde: Essa funcionalidade possui certas complexidades relacionadas a manipulação de dados armazenados localmente, como por exemplo a necessidade de garantir que a lista seja salva e recuperada corretamente, e a necessidade de garantir que os filmes sejam adicionados e removidos da lista de maneira confiável e consistente. Levando em consideração os aspectos de prazo e a pouca experiência com javascript e a biblioteca react optei por não dar continuidade na implementação e evitar a entrega de algo incompleto.
 
 ### 3. Outras funcionalidades implementadas
 
@@ -28,10 +28,23 @@ O trabalho consiste em uma biblioteca de filmes consumindo a [TMDB API](https://
 - Exibição da página "elenco" ao clicar em alguma pessoa do elenco de um filme, possibilitando a visualização da bibliografia, IMDB e exibição de outros filmes que ela participou.
 
 ### 4. Principais desafios e dificuldades
-<!-- Descrever os principais desafios encontrados no desenvolvimento do trabalho, quais foram as dificuldades e como elas foram superadas e resolvidas. -->
+
+Meu principal desafio foi lidar com o gerenciamento de estado do React para lidar com a lógica da aplicação e a comunicação com a API. Outra dificuldade foi com a implementação do Tailwind no projeto. 
 
 ### 5. Instruções para instalação e execução
-<!-- Descrever o que deve ser feito para instalar (ou baixar) a aplicação, o que precisa ser configurando (parâmetros, banco de dados e afins) e como executá-la. -->
+
+A aplicação foi construída com o NodeJs na versão **14.21.2**. Entretanto, a aplicação pode não funcionar caso a versão do Node seja mais recente.
+Uma dica é instalar o **NVM**  que permite você ter várias versões do Node instaladas e trocar de versão quando quiser. [Link Windows](https://github.com/coreybutler/nvm-windows/releases), [Link Linux](https://github.com/nvm-sh/nvm)
+
+- Tenha uma chave de acesso para API TMDB. Caso não tenha, é possível criar uma gratuitamente através deste [Link](https://developers.themoviedb.org/3/getting-started/introduction).
+- Crie um arquivo **.env** na pasta raiz do projeto e adicione a sua chave da API TMDB da seguinte forma:
+    ```
+    REACT_APP_TMDB_API=sua_chave_da_api_tmdb
+    ```
+- Abra a pasta my-movies do projeto pelo terminal e rode o comando `npm install` ou `yarn add` para adicionar todas as dependências do projeto.
+- Agora basta rodar o comando `npm start` ou `yarn start` e aguardar o projeto ser inicializado no navegador (localhost).
 
 ### 6. Referências
-<!-- Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT. -->
+
+- Norouzii, Mohammad Reza. TopCine. Disponível em: https://github.com/mohammadrezanorouzii/topcine. Acesso em: 5 mar. 2023.
+- Tohirovich, Otabek. React-movie-app. Disponível em: https://github.com/OtabekTohirovich/React-movie-app. Acesso em: 5 mar. 2023.
