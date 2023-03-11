@@ -1,58 +1,37 @@
-# React Movie Library
+# **CSI606-2021-02 - Remoto - Trabalho Final - Resultados**
 
-I made this library to practice my react skills and to get a better understanding of state management in React.
+## *Aluna(o): Victor Gabriel Siqueira Moura
 
-## Check it out live here - [https://fabmovielibrary.netlify.app](https://fabmovielibrary.netlify.app)
+--------------
 
-![Fab Movie Library Preview](./public/preview.png)
+### Resumo
 
-### Techs Used
+O trabalho consiste em uma biblioteca de filmes consumindo a [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction). O back-end e front-end da aplicação estão construídos em javascript, com utilização do React no front. A aplicação oferece ao usuário uma experiência de descoberta e detalhamento de filmes.
 
-- [React JS](https://reactjs.org/)
-- [React Router](https://github.com/ReactTraining/react-router)
-- [Tailwind](https://tailwindcss.com/)
+### 1. Funcionalidades implementadas
 
-### Features of the Movie Library
+- Descoberta de filmes populares.
+- Descoberta de filmes melhores avaliados.
+- Descoberta de filmes através de gêneros.
+- Possibilidade de assistir o TRAILER de um filme.
+- Filtragem personalizada de filmes.
+- Visualização detalhada de filmes como sinopse, gênero relacionado, nota de avaliação, elenco, tempo de duração, ano de lançamento etc.
 
-- You can discover Popular, top-rated and upcoming movies, browse through different genres of movies to find the one you like.
-- Search for your favorite movies.
-- Get detailed information for a movie and it's cast.
-- Also, you can watch the trailer of the movie.
-- Sort out the movies according to vote, popularity, etc.
-- Get recommendations for yourself based on the movie you are looking at.
-- Visit websites and IMDB profiles of the movie and cast members.
-- Get the biography of your favorite cast member and also see other movies they appeared in and so much more!
+### 2. Funcionalidades previstas e não implementadas
 
-### Want to run this on your local machine?
+- Possibilidade de criar uma lista de filmes para assistir mais tarde: Essa funcionalidade possui certas complexidades relacionadas a manipulação de dados armazenados no Local Storage, como por exemplo a necessidade de garantir que a lista seja salva e recuperada corretamente, e a necessidade de garantir que os filmes sejam adicionados e removidos da lista de maneira confiável e consistente. Levando em consideração os aspectos de prazo e a pouca experiência com javascript e a biblioteca react optei por não dar continuidade na implementação e evitar a entrega de algo incompleto.
 
-- Clone the repo or download the ZIP file.
-- Add all the dependencies using `yarn add`. (I have used yarn for development but you can do `npm install` too).
-- Add a `.env` file with the following keys (Get your TMDB API from here after signing up and add GA key only if you are integrating Google analytics.)
+### 3. Outras funcionalidades implementadas
 
-```
-REACT_APP_TMDB_API=your-tmdb-api-key
-REACT_APP_GA_KEY=your-google-analytics-tracking-code
-```
+- Exibição de filmes recomendados na consulta de um filme.
+- Possibilidade de acesso ao IMDB (The Internet Movie Database) do filme consultado.
+- Exibição da página "elenco" ao clicar em alguma pessoa do elenco de um filme, possibilitando a visualização da bibliografia, IMDB e exibição de outros filmes que ela participou.
 
-**In case you do not want to use Google Analytics, just comment out the following two lines from App.js in `/src ` directory.**
+### 4. Principais desafios e dificuldades
+<!-- Descrever os principais desafios encontrados no desenvolvimento do trabalho, quais foram as dificuldades e como elas foram superadas e resolvidas. -->
 
-```
-ReactGA.initialize(process.env.REACT_APP_GA_KEY);
-ReactGA.pageview(window.location.pathname + window.location.search);
-```
+### 5. Instruções para instalação e execução
+<!-- Descrever o que deve ser feito para instalar (ou baixar) a aplicação, o que precisa ser configurando (parâmetros, banco de dados e afins) e como executá-la. -->
 
-- Now run the command `yarn start` to run the application. (Alternatively, if you are using **npm** run `npm start`).
-
-### API Used
-
-[The Movie DB API](https://www.themoviedb.org/documentation/api) was used for the project, you can sign up for a free account and use it.
-
-<a target="_blank" href="https://www.themoviedb.org/documentation/api">
-    <img src="./src/assets/TMDBLogoDark.svg" alt="The Movie DB API logo"  height="50">
-</a>
-
-### Contribution
-
-Please feel free to make a pull request by creating an issue if you feel like there is something which can be improved.
-
-### Author
+### 6. Referências
+<!-- Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT. -->

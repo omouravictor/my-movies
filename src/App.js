@@ -131,7 +131,7 @@ function App() {
             />
             <Route
               exact
-              path={process.env.PUBLIC_URL + "/person/:id"}
+              path={process.env.PUBLIC_URL + "/elenco/:id"}
               baseURL={config.secure_base_url}
               render={(routeProps) => (
                 <Person
