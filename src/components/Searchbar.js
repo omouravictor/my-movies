@@ -30,7 +30,7 @@ function Searchbar({ history }) {
     inputRef.current.blur();
     setFocus(false);
     setInput("");
-    history.push(`${process.env.PUBLIC_URL}/search/${input}`);
+    history.push(`${process.env.PUBLIC_URL}/pesquisa/${input}`);
   };
   return (
     <form

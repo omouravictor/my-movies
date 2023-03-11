@@ -108,7 +108,7 @@ function App() {
             />
             <Route
               exact
-              path={process.env.PUBLIC_URL + "/search/:query"}
+              path={process.env.PUBLIC_URL + "/pesquisa/:query"}
               render={(routeProps) => (
                 <Search
                   {...routeProps}
