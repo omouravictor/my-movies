@@ -29,7 +29,7 @@ O trabalho consiste em uma biblioteca de filmes consumindo a [TMDB API](https://
 
 ### 4. Principais desafios e dificuldades
 
-Meu principal desafio foi lidar com o gerenciamento de estado do React para lidar com a lógica da aplicação e a comunicação com a API. Outra dificuldade foi com a implementação do Tailwind no projeto. 
+Meu principal desafio foi lidar com o gerenciamento de estado do React para lidar com a lógica da aplicação e a comunicação com a API. 
 
 ### 5. Instruções para instalação e execução
 
