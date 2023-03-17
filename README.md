@@ -45,5 +45,5 @@ A aplicação foi construída com o NodeJs na versão **14.21.2**. Entretanto, a
 
 ### 6. Referências
 
-- Norouzii, Mohammad Reza. TopCine. Disponível em: https://github.com/mohammadrezanorouzii/topcine. Acesso em: 5 mar. 2023.
-- Tohirovich, Otabek. React-movie-app. Disponível em: https://github.com/OtabekTohirovich/React-movie-app. Acesso em: 5 mar. 2023.
+- Norouzii, Mohammad Reza. TopCine. Disponível em: https://github.com/mohammadrezanorouzii/topcine. Acesso em: 26 fev. 2023.
+- Tohirovich, Otabek. React-movie-app. Disponível em: https://github.com/OtabekTohirovich/React-movie-app. Acesso em: 26 fev. 2023.
