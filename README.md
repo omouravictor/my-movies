@@ -42,8 +42,3 @@ A aplicação foi construída com o NodeJs na versão **14.21.2**. Entretanto, a
     ```
 - Abra a pasta my-movies do projeto pelo terminal e rode o comando `npm install` ou `yarn install` para adicionar todas as dependências do projeto.
 - Agora basta rodar o comando `npm start` ou `yarn start` e aguardar o projeto ser inicializado no navegador (localhost).
-
-### 6. Referências
-
-- Norouzii, Mohammad Reza. TopCine. Disponível em: https://github.com/mohammadrezanorouzii/topcine. Acesso em: 26 fev. 2023.
-- Tohirovich, Otabek. React-movie-app. Disponível em: https://github.com/OtabekTohirovich/React-movie-app. Acesso em: 26 fev. 2023.
